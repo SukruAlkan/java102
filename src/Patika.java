@@ -14,5 +14,17 @@ public class Patika {
         //OgretimGorevlisi hem Akademisyen hem de Calisan sınıflarına ait nitelik ve metotlara erişebilir
         //o1.giris();
 
+        //method overloading - metotlarda aşırı yüklenme
+        //o1.giris("10:00");
+        //o1.giris("10:00", "18:00");
+
+        //method overriding - metotlarda geçersiz kılma - geçersiz kılma
+        //akademisyen metoduna giris metodu eklenirse calisan sınıfındaki giris metodu etkisiz kılınarak akademisyen metodunki giris metodu çağırıldı.
+        //o1.giris();
+
+        //OgretimGorevlisi metoduna giris metodu eklenirse calisan sınıfındaki ve Akademisyen sınıfındaki giris metodu
+        //etkisiz kılınarak akademisyen metodunki giris metodu çağırıldı.
+        o1.giris();
+
     }
 }

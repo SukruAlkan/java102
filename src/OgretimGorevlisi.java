@@ -21,4 +21,9 @@ public class OgretimGorevlisi extends Akademisyen {
     public void sinavYap() {
         System.out.println(this.getAdSoyad() + " senato sınav yaptı!");
     }
+
+    @Override
+    public void giris() {
+        System.out.println(this.getAdSoyad() + " öğretim görevlisi B kapısından giris yaptı!");
+    }
 }
