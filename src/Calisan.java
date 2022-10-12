@@ -35,16 +35,16 @@ public class Calisan {
     }
 
     public void giris() {
-        System.out.println(this.getAdSoyad() + " üniversiteye giriş yaptı!");
+        System.out.println(this.getAdSoyad() + " çalışanı üniversiteye giriş yaptı!");
     }
 
-    public void giris(String girisSaati) {
-        System.out.println(this.getAdSoyad() + " " + girisSaati + " saatinde üniversiteye giriş yaptı!");
-    }
-
-    public void giris(String girisSaati, String cikisSaati) {
-        System.out.println(this.getAdSoyad() + " " + girisSaati + " saatinde üniversiteye giriş yaptı ve " + cikisSaati + " bu saatte çıkacaktır!");
-    }
+//    public void giris(String girisSaati) {
+//        System.out.println(this.getAdSoyad() + " " + girisSaati + " saatinde üniversiteye giriş yaptı!");
+//    }
+//
+//    public void giris(String girisSaati, String cikisSaati) {
+//        System.out.println(this.getAdSoyad() + " " + girisSaati + " saatinde üniversiteye giriş yaptı ve " + cikisSaati + " bu saatte çıkacaktır!");
+//    }
 
     public void cikis() {
         System.out.println(this.getAdSoyad() + " üniversiteden çıkış yaptı!");
@@ -52,5 +52,11 @@ public class Calisan {
 
     public void yemekhane() {
         System.out.println(this.getAdSoyad() + " yemekhaneye girdi!");
+    }
+
+    public static void girisYapanlar(Calisan[] loginUsers) {
+        for (Calisan c : loginUsers) {
+            c.giris();
+        }
     }
 }

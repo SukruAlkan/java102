@@ -24,7 +24,23 @@ public class Patika {
 
         //OgretimGorevlisi metoduna giris metodu eklenirse calisan sınıfındaki ve Akademisyen sınıfındaki giris metodu
         //etkisiz kılınarak akademisyen metodunki giris metodu çağırıldı.
-        o1.giris();
+        //o1.giris();
+
+        //Polimorphism (Çok Biçimlilik)
+
+        //o1.giris();
+        //a1.giris();
+        //c1.giris();
+        //m1.giris();
+
+        //Calisan a2 = new Akademisyen("Patika Dev", "01112223344", "patika.dev", "CENG", "Doçent");
+        //a2.giris(); // Akademisyene ait giris metodunu çağırır Çünkü akademisyen üzerinden giris @Override edildiği için
+
+        //Akademisyen[] loginUser = {c1,a1,m1,o1}; //hata verir çünkü c1 ve m1 akademisyen sınıfının alt sınıfı değil
+        //Calisan[] loginUser = {c1,a1,m1,o1}; //hepsinin ata sınıfı aynı (Calisan) olduğu için hata vermez
+        //Calisan.girisYapanlar(loginUser);
+
+
 
     }
 }
