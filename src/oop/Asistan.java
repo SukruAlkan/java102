@@ -1,3 +1,5 @@
+package oop;
+
 public class Asistan extends Akademisyen{
     private String ofisSaati;
 

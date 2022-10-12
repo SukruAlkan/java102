@@ -1,10 +1,10 @@
-//public class Calisan {
+package oop;//public class oop.Calisan {
 //
 //    private String adSoyad;
 //    private String telefon;
 //    private String eposta;
 //
-//    public Calisan(String adSoyad, String telefon, String eposta) {
+//    public oop.Calisan(String adSoyad, String telefon, String eposta) {
 //        this.adSoyad = adSoyad;
 //        this.telefon = telefon;
 //        this.eposta = eposta;
@@ -54,8 +54,8 @@
 //        System.out.println(this.getAdSoyad() + " yemekhaneye girdi!");
 //    }
 //
-//    public static void girisYapanlar(Calisan[] loginUsers) {
-//        for (Calisan c : loginUsers) {
+//    public static void girisYapanlar(oop.Calisan[] loginUsers) {
+//        for (oop.Calisan c : loginUsers) {
 //            c.giris();
 //        }
 //    }

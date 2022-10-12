@@ -1,3 +1,5 @@
+package oop;
+
 public class BilgiIslem extends Memur {
     private String gorev;
 

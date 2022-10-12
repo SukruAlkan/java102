@@ -1,3 +1,5 @@
+package oop;
+
 public class GuvenlikGorevlisi extends Memur {
     private String belge;
 

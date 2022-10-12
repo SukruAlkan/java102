@@ -1,8 +1,8 @@
-//public class Akademisyen extends Calisan {
+package oop;//public class oop.Akademisyen extends oop.Calisan {
 //    private String bolum;
 //    private String unvan;
 //
-//    public Akademisyen(String adSoyad, String telefon, String eposta, String bolum, String unvan) {
+//    public oop.Akademisyen(String adSoyad, String telefon, String eposta, String bolum, String unvan) {
 //        super(adSoyad, telefon, eposta);
 //        //üst sınıfın constuctor ına erişmek için super kullanılır.
 //        //eğer Calısan sınıfında bos constructor olsaydı hata almazdık dolayısıyla super kullanmaya gerek kalmazdı.

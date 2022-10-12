@@ -1,3 +1,5 @@
+package oop;
+
 public class OgretimGorevlisi extends Akademisyen {
     private String kapiNo;
 
@@ -24,7 +26,7 @@ public class OgretimGorevlisi extends Akademisyen {
 
     @Override
     public void derseGir(String dersSaati) {
-        System.out.println("OgretimGorevlisi " + this.getAdSoyad() + " " + dersSaati + " saatinde derse girdi!");
+        System.out.println("oop.OgretimGorevlisi " + this.getAdSoyad() + " " + dersSaati + " saatinde derse girdi!");
     }
 
     @Override
