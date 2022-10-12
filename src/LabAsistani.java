@@ -7,8 +7,8 @@ public class LabAsistani extends Asistan {
         System.out.println(this.getAdSoyad() + " laba girdi!");
     }
 
-    @Override
-    public void derseGir() {
-        System.out.println("Lab asistanı " + this.getAdSoyad() + " derse girdi!");
-    }
+//    @Override
+//    public void derseGir() {
+//        System.out.println("Lab asistanı " + this.getAdSoyad() + " derse girdi!");
+//    }
 }
